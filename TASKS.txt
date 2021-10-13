@@ -1,0 +1,13 @@
+
+TODO:
+----------------------------------------------------------------------------------------------------------------------------------------  
+
+Code clean up:
+- Add comments to the code
+- Clean up code
+
+Other: 
+- Turn in Design doc through BB
+- ADD finished files to FINAL
+- Test against Edoras when submitting
+- Make sure to add all the correct files that readme requires
