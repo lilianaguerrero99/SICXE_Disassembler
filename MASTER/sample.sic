@@ -1,0 +1,17 @@
+LABEL      OPCODE        OPERAND
+              SUM       START
+FIRST       LDX
+            LDA
+           +LDB
+LOOP        ADD
+            ADD
+            TIX
+            JLT
+           +STA
+           RSUB
+          LTORG
+COUNT      RESW
+TABLE      RESW
+TABLE2     RESW
+TOTAL      RESW
+END       FIRST

@@ -1,0 +1,12 @@
+Symbol  Value   Flags:
+-----------------------
+WORK    000000  R
+START   000000  R
+LBL1    000006  R
+LBL2    000008  R
+TABLE2  001790 	R
+TOTAL   002F00 	R
+
+Name    Literal  Length Address:
+------------------------------
+       

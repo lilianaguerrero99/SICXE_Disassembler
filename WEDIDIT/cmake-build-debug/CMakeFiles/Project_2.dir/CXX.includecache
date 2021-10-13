@@ -1,0 +1,78 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/kueok/OneDrive/Desktop/JUMP FIX/formats.cpp
+formats.h
+C:/Users/kueok/OneDrive/Desktop/JUMP FIX/formats.h
+
+C:/Users/kueok/OneDrive/Desktop/JUMP FIX/formats.h
+iostream
+-
+sstream
+-
+string
+-
+vector
+-
+algorithm
+-
+iomanip
+-
+map
+-
+opcodeTableBinary.h
+C:/Users/kueok/OneDrive/Desktop/JUMP FIX/opcodeTableBinary.h
+openFiles.h
+C:/Users/kueok/OneDrive/Desktop/JUMP FIX/openFiles.h
+
+C:/Users/kueok/OneDrive/Desktop/JUMP FIX/opcodeTableBinary.h
+map
+-
+string
+-
+
+C:/Users/kueok/OneDrive/Desktop/JUMP FIX/openFiles.h
+iostream
+-
+sstream
+-
+fstream
+-
+string
+-
+vector
+-
+bitset
+-
+algorithm
+-
+iomanip
+-
+
+C:/Users/kueok/OneDrive/Desktop/JUMP FIX/printFiles.cpp
+printFiles.h
+C:/Users/kueok/OneDrive/Desktop/JUMP FIX/printFiles.h
+
+C:/Users/kueok/OneDrive/Desktop/JUMP FIX/printFiles.h
+iostream
+-
+sstream
+-
+string
+-
+vector
+-
+algorithm
+-
+iomanip
+-
+openFiles.h
+C:/Users/kueok/OneDrive/Desktop/JUMP FIX/openFiles.h
+formats.h
+C:/Users/kueok/OneDrive/Desktop/JUMP FIX/formats.h
+

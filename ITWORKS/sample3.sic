@@ -1,0 +1,29 @@
+MLKK    START    0         
+RDREC   CLEAR    X         
+MLKK    START    0         
+RDREC   CLEAR    X         
+        CLEAR    A         
+        CLEAR    S         
+       +LDT     #4096      
+RLOOP   TD       INPUT     
+        JEQ      RLOOP     
+        RD       INPUT     
+        COMPR    A,S       
+        JEQ      EXIT      
+        STCH     INPUT,X   
+        TIXR     T         
+        JLT      RLOOP     
+EXIT    STX     #69        
+        RSUB               
+INPUT   BYTE     X'F1'     
+WRREC   CLEAR    X         
+        LDT     #420       
+WLOOP   TD       OUTPUT    
+        JEQ      WLOOP     
+        LDCH     OUTPUT,X  
+        WD       OUTPUT    
+        TIXR     T         
+        JLT      WLOOP     
+        RSUB               
+OUTPUT  BYTE     X'05'     
+END     RDREC              

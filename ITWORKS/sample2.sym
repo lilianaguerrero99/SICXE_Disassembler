@@ -1,0 +1,16 @@
+Symbol  Value   Flags:
+-----------------------
+MLKK    000000  R
+FIRST   000000	R
+CLOOP   000006	R
+ENDFIL  00001A	R
+EOF     00002D	R
+RETADR  000030	R
+LILI    000033	R
+MARIE   000036	R
+KOTARO  001036  R
+KYLE    00105D  R
+
+Name    Literal  Length Address:
+------------------------------
+         C'EOF'    3    00002D

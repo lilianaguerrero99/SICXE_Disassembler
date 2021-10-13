@@ -1,0 +1,15 @@
+Symbol  Value   Flags:
+-----------------------
+MLKK    001036  R
+RDREC   001036	R
+RLOOP   001040	R
+EXIT    001056	R
+INPUT   00105C	R
+WRREC   00105D	R
+WLOOP   001062	R
+OUTPUT  001076	R
+
+Name    Literal  Length Address:
+------------------------------
+         X'F1'     2    00105C
+         X'05'     2    001076

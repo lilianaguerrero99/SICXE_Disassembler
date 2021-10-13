@@ -1,0 +1,25 @@
+MEETING WEDNESDAY 2PM DISCORD
+
+TODO:
+-----------------------------------------------------------------------------------------------------------------------------------------
+- Format 3, includes base with that base extension (Lili)
+  - Immediate addressing
+
+- Format 4, base extension (Marie)
+  - Deal with indexing
+
+-Talk about combining format 3 and 4 base   
+  
+- Indirect addressing
+
+- Handling literals, access at the address and push it back into the vector of vectors so it is in the correct position (Marie)
+
+- Extra tests, create OBJ and SYB files (Marie, Kyle)
+
+- Writing to files, make sure the spacing matches the uploaded file (Already near completion) (Lili)
+
+- Header Files to clean up the code (Only thing we keep inside is the Format, format calculations, keep master format, append start, appendend; rest goes into its own .h file)(Lili)
+
+-split program into four files: opTable, formats, printingFiles, openingFiles, and make their headers (completed) (Lili)
+  
+- Cleaning up test format (Kotaro)

@@ -1,0 +1,23 @@
+MLKK    START    0         
+FIRST   STL      RETADR    
+        LDB     #LILI      
+        BASE     LILI      
+CLOOP  +JSUB     KOTARO    
+        LDA      LILI      
+        COMP    #0         
+        JEQ      ENDFIL    
+       +JSUB     KYLE      
+        J        CLOOP     
+ENDFIL  LDA      EOF       
+        STA      MARIE     
+        LDA     #3         
+        STA      LILI      
+       +JSUB     KYLE      
+        J       @RETADR    
+EOF     BYTE     C'EOF'    
+RETADR  RESW     1         
+LILI    RESW     1         
+MARIE   RESB     4096      
+KOTARO  RESW     13        
+KYLE    RESB     35        
+END     FIRST              
